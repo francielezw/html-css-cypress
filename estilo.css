@@ -1,0 +1,30 @@
+.supernova {
+    background-image: url('https://thumbs.dreamstime.com/z/o-arco-%C3%ADris-colorido-cuba-o-formul%C3%A1rio-um-fundo-31565088.jpg');
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-attachment: fixed;
+    background-size: cover;
+}
+body {
+    background: none;
+    font-size: 20px;
+}
+
+body, .form-all {
+    margin-top: 0;
+}
+
+.sem-borda{
+    border:none;
+}
+
+.formulario {
+    border: 1px solid #000000;
+    margin: 5px;
+    padding: 5px;
+}
+
+
+
+
+

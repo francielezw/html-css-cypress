@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <link rel="stylesheet" href="estilo.css"/>
+    <meta charset="UTF-8"/>
+</head>
+<title>Cadastro de pessoa física</title>
+
+<body class="supernova">
+
+    <form id="formulario" class="formulario" action="sucesso.html" method="post" >
+   
+        <fieldset id="usuario" class="sem-borda"><legend>Identificação do usuário:</legend>   
+
+            <p><label for="cNome">Nome:</label><input type="text" name="tNome" id="cNome" size="20" maxlength="30" placeholder="Nome" /></p>
+            <p><label for="cSobrenome">Sobrenome:</label><input type="text" name="tSobrenome"  id="cSobrenome" size="20" maxlength="30" placeholder="Sobrenome"></p>
+            <p><label for="cSenha"> Senha:</label><input type="password" name="tSenha" id="cSenha" size="8" maxlength="8" placeholder="8 dígitos"/></p>
+            <p><label for="cMail">E-mail:</label><input type="email" name="tMail" id="cMail" size="20" maxlength="40"></p>
+            <fieldset id="Sexo" class="sem-borda"><legend>Sexo</legend>
+                <input type="radio" name="tSexo"  id="cMasc"/> <label for="cMasc">Masculino:</label><br/>
+            <input type="radio" name="tSexo"  id="cFem"/> <label for="cFem">Feminino:</label> 
+
+            </fieldset>
+                    <p>Data de Nascimento: <input type="date" name="tNasc" id="cNasc"/></p>
+            </fieldset>
+
+        
+            <fieldset class="sem-borda">
+                    <legend> Escolha seus interesses </legend>
+                    
+                        <div>
+                            <input type = "checkbox" id = "viajar" name = "interesse" value = "viajar">
+                            <label for = "coding"> Viajar </label>
+                    </div>
+                    
+                    <div>
+                        <input type = "checkbox" id = "musica" name = "interesse" value = "música">
+                        <label for = "music"> Música </label>
+                    </div>
+                
+                    <div>
+                        <input type = "checkbox" id = "esporte" name = "interesse" value = "esporte">
+                        <label for = "music"> Esporte </label>
+                    </div>
+
+                    <div>
+                        <input type = "checkbox" id = "arte" name = "interesse" value = "arte">
+                        <label for = "Arte"> Arte </label>
+                    </div>
+
+                    <div>
+                        <input type = "checkbox" id = "cinema" name = "interesse" value = "cinema">
+                        <label for = "Cinema"> Cinema </label>
+                    </div>
+            </fieldset>
+            
+
+        <button type="submit" id="enviar">Enviar</button>
+    
+    </form> 
+</body>
+</html>
